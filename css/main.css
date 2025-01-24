@@ -12,10 +12,10 @@ body:before {
 
 /* USE THIS TO CHANGE COLOR SCHEME*/
 :root {
-  --main-color: darkred;
-  --secondary-color: black;
-  --hovercolor: red;
-  --textcolor: white;
+  --main-color: rgb(255, 255, 255);
+  --secondary-color: rgb(0, 0, 0);
+  --hovercolor: rgb(0, 0, 0);
+  --textcolor: rgb(255, 255, 255);
   --borders: white;
 }
 
@@ -196,7 +196,7 @@ body {
 
 .button:hover {
   /*background-color: var(--main-color);*/
-  background-color: white;
+  background-color: rgb(194, 0, 0);
   color: white;
   transition: 0.3s;
   border: 2px white;
