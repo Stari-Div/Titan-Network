@@ -197,9 +197,9 @@ body {
 .button:hover {
   /*background-color: var(--main-color);*/
   background-color: white;
-  color: black;
+  color: white;
   transition: 0.3s;
-  border: 2px solid black;
+  border: 2px white;
 }
 
 .navbar .logo {
